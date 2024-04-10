@@ -1,0 +1,24 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' href='href="https://wa.me/918072527106/?text=Hello%20there!"' target='_blank'>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="https://www.linkedin.com/in/karthick-s-3096791b3" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:skarthick.0809@gmail.com" target='_blank'>skarthick.0809@gmail.com </a>
+        </div>
+    </div>
+
+    <div class="footer-credits text-center" >
+        <div>Built with Angular by Karthick Sekar</div>
+    </div>
+
+</footer>

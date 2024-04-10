@@ -1,0 +1,205 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "Karthick.pdf",
+
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Name": "Karthick Sekar",
+    "Banner.Role": "Senior Software Engineer",
+    "Banner.Description": "I have  <span class='underline'>3 years of experience</span> developing web applications, web api's, bots, mobile apps. and technological solutions to make the application a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span>, <span class='underline'>Flutter</span>,  <span class='underline'>React Native</span>, <span class='underline'>.NET Core</span> and sometimes my expertise extends to <span class='underline'>Restful API</span> development, cloud services such as <span class='underline'>Azure</span>, <span class='underline'>AWS</span>, and <span class='underline'>Google Firebase</span>, as well as <span class='underline'>MS SQL</span> applying good practices and development standards.",
+    "Banner.ActionBtn": "Get in touch",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "As a  Full Stack <span class='underline'>Associate Senior Software Developer</span> with <span class='underline'>3</span> years of hands-on experience, I am dedicated to continuous growth and refinement of my skills. Throughout my journey, I have specialized in cross-platform development, mastering technologies such as <span class='underline'>Angular</span>, <span class='underline'>.NET Core</span>, <span class='underline'>Flutter</span>, and <span class='underline'>React Native</span>. My proficiency extends beyond frontend frameworks to encompass backend development, where I have excelled in utilizing technologies like <span class='underline'>.NET Core</span> and <span class='underline'>MS SQL</span> to deliver robust solutions.",
+        "In addition to my technical expertise, I have a proven track record of leadership and teamwork. Whether it's writing dynamic code, implementing system improvements, or optimizing sites, I am committed to delivering high-quality solutions that add tangible value to every project.",
+        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+    ],
+    "AboutMe.Technologies":[ "Angular","React Native","Flutter",".NET Core","MS SQL","Azure","AWS","Google Firebase"],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+          "Tab": "Admin Portals",
+          "Title": "Web development",
+          "Technologies":"Angular | .NET Core | Azure Function App.",
+          "Date": "May 2021 - Present",
+          "Description": [
+            "Proficient in responsive and dynamic cross-platform development, successfully delivering 3 Web App. on time using .Net with Angular technology.",
+            "Demonstrated expertise in creating 10+ dynamic reusable components tailored to specific functionalities using Angular.",
+            "Experienced in improving performance of Web Application by using various techiques like Lazy loading, Optimize Images and Assets, Minimize HTTP Requests, Server-Side Rendering and Tree Shaking",
+            "Implemented Security Best Coding Practices, including OWASP Top 10 Security guidelines, and integrated API Gateway solutions to enhance application security in .NET core Appication.",
+            "Implemented various type of login like B2C, Multi tenent authentication, OAuth, Two-Factor Authentication and SSO as well.",
+            "Successfully integrated role-based authorization in Angular application, ensuring secure access to features and routes based on user roles through custom route guards and dynamic UI element rendering."
+          ]
+        },
+        {
+          "Tab": "Chatbots",
+          "Title": "Chatbot development",
+          "Technologies":"AWS Lex | AWS Lambda function | Angular | .NET Core | Zobot",
+          "Date": "Dec 2021 - Jun 2023",
+          "Description": [
+            "Conducted a Proof of Concept (POC) on AWS Lex and Zobot, evaluating their capabilities for chatbot development, and selected AWS Lex due to its superior flexibility and customization options.",
+            "Integrated AWS Lex into Angular applications, ensuring responsive design and crafting custom user interfaces, and provided comprehensive training to AWS Lex for effectively handling diverse user inputs.",
+            "Utilized AWS Lambda functions to enhance the chatbot's flexibility, implementing complex logic dynamically, and interconnected AWS Lex, Lambda, web APIs, and web applications to create a seamless chatbot interaction experience.",
+            "Successfully delivered and implemented the chatbot solution across three distinct projects for different clients, tailoring the solution to meet the specific requirements and preferences of each client.",
+            "Ensured maximum satisfaction by delivering a chatbot solution that effectively met the unique needs of each client, leveraging AWS Lex, Lambda, and Angular technologies to create an efficient and user-friendly chatbot experience."
+          ]
+        },
+        {
+          "Tab": "Web API",
+          "Title": "Web API",
+          "Technologies":".NET Core | Dapper | API Gateway",
+          "Date": "May 2021 - Present",
+          "Description": [
+            "Possess 3 years of extensive experience in developing RESTful APIs.",
+            "Implemented Dapper ORM (Object-Relational Mapping) to enhance performance, providing efficient database access and optimized data retrieval.",
+            "Developed multi-tenant authentication and Multi-Factor Authentication (MFA) flow, ensuring secure access to the API from different tokens.",
+            "Implemented advanced security measures for accessing the database, including Managed Identity, Key Vault integration, and adherence to OWASP best practices."
+          ]          
+        },
+        {
+          "Tab": "Mobile App",
+          "Title": "Mobile development",
+          "Technologies":"Flutter | Google Analytics | Firebase Push notification | Crashlytics | React Native",
+          "Date": "Feb 2022 - Jun 2022",
+          "Description": [
+            "Designed and developed a mobile app using Flutter, leveraging its cross-platform capabilities to create a seamless user experience.",
+            "Implemented OAuth authentication within the Flutter app, ensuring secure access to user accounts.",
+            "Integrated Firebase Push Notification and Azure Function App to enable push notification functionality within the mobile app.",
+            "Utilized Crashlytics and Google Analytics to track usage and performance metrics, optimizing the mobile app based on insights gathered.",
+            "Learned and developed three dynamic components for use across projects within the React Native framework, expanding expertise in mobile development technologies."
+          ]          
+        },
+        {
+          "Tab": "MS SQL",
+          "Title": "SQL development",
+          "Date": "Oct 2022 - Feb 2023",
+          "Description": [
+            "Possess experience in writing stored procedures (SP) and debugging SP to ensure optimal database performance and functionality.",
+            "Optimized stored procedures and implemented indexing strategies to improve database query performance and reduce execution time.",
+            "Proficient in writing complex SQL queries to retrieve and manipulate data efficiently, ensuring effective data management and analysis."
+          ]          
+        }
+      ],
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [{
+            "Title": "Agrourbana",
+            "Description": "Monitoring application made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has feedback form logic for parameter configuration.",
+            "imgs": [
+                "assets/images/agrourbana/agrourbana1.png",
+                "assets/images/agrourbana/agrourbana2.png",
+                "assets/images/agrourbana/agrourbana3.png",
+                "assets/images/agrourbana/agrourbana4.png",
+                "assets/images/agrourbana/agrourbana5.png"
+            ],
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Tu super plan",
+            "Description": "Health plan quote that has a search engine with which advanced queries are made. Plans are displayed based on the user's age, monthly income, and location. It has <span class='underline'>online chat</span, <span class='underline'>contact form</span>, <span class='underline'>notification system by whatsapp and mail</span>, <span class='underline'>auth</span>, and <span class='underline'>internet information management through the role of administrator.</span>",
+            "imgs": [
+                "assets/images/tusuperplan/tusuperplan1.png",
+                "assets/images/tusuperplan/tusuperplan2.png",
+                "assets/images/tusuperplan/tusuperplan3.png",
+                "assets/images/tusuperplan/tusuperplan4.png",
+                "assets/images/tusuperplan/tusuperplan5.png"
+            ],
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Proyexiot",
+            "Description": "Data monitoring platform belonging to water wells, tugboats, and various installations made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers.</span>",
+            "imgs": [
+                "assets/images/proyex/proyex1.png",
+                "assets/images/proyex/proyex2.png",
+                "assets/images/proyex/proyex3.png",
+                "assets/images/proyex/proyex4.png",
+                "assets/images/proyex/proyex5.png",
+                "assets/images/proyex/proyex6.png",
+                "assets/images/proyex/proyex7.png",
+                "assets/images/proyex/proyex8.png",
+                "assets/images/proyex/proyex9.png",
+                "assets/images/proyex/proyex10.png",
+                "assets/images/proyex/proyex11.png",
+                "assets/images/proyex/proyex12.png"
+            ],
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Hands game",
+            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
+            "imgs": ["assets/images/hands-game.png"],
+            "ghLink": "https://github.com/andresjosehr/hands-game",
+            "demoLink": "https://projects.andresjosehr.com/hands-game",
+            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+        },
+        {
+            "Title": "Countries viewer",
+            "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
+            "imgs": ["assets/images/countries-viewer.png"],
+            "ghLink": "https://github.com/andresjosehr/countries-viewer",
+            "demoLink": "https://projects.andresjosehr.com/countries-viewer",
+            "Technologies": ["Angular", "RxJS", "SASS", "API"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [{
+            "Title": "Pokemon",
+            "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
+            "ghLink": "https://github.com/andresjosehr/pokemon-angular",
+            "demoLink": "https://projects.andresjosehr.com/pokemon-list",
+            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+        },
+        {
+            "Title": "Coming soon page",
+            "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
+            "ghLink": "https://github.com/andresjosehr/coming-soon-page",
+            "demoLink": "https://projects.andresjosehr.com/coming-soon-page",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "Four card feature section",
+            "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
+            "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
+            "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        },
+        {
+            "Title": "Social proof section",
+            "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
+            "ghLink": "https://github.com/andresjosehr/social-proof-section",
+            "demoLink": "https://projects.andresjosehr.com/social-proof-section",
+            "Technologies": ["Angular", "CSS GRID", "GIT"]
+        },
+        {
+            "Title": "FAQ accordion card",
+            "Description": "FAQ accordion with logic and animations made in Angular.",
+            "ghLink": "https://github.com/andresjosehr/faq-accordion",
+            "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
+            "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+        },
+        {
+            "Title": "Profile card",
+            "Description": "Simple one-page design that features a profile letter with basic information about a person.",
+            "ghLink": "https://github.com/andresjosehr/profile-card-component",
+            "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
+            "Technologies": ["Angular", "SASS", "GIT"]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
+    "Contact.Btn": "Contact me"
+
+
+}
